@@ -1,16 +1,49 @@
-/* This is a mess! I need to organize this css at some point. */
+/***************************************/
+/* define the general look of the site */
 
 body {
     background-image: url("pictures/tessellation.jpg");
     background-color: #212121;
 }
 
-.header {
-    text-align: center;
-}
-
 h1, h2, h3, h4, h5, h6, .big {
     font-family: "Optima", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.half-width {
+    padding: 1em;
+    background-color: #FCF4DC;
+    width: 555px;
+    margin: auto;
+    border-radius: 0.5em;
+    text-align: justify;
+    font-family: "Palatino Linotype", Palatino, serif;
+}
+
+a {
+    text-decoration: none; 
+    color: #304EBB;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.rounded {
+    border-radius: 3px;
+}
+
+.spinny:hover {
+    transition: all 1.2s ease-in-out;
+    transform: rotatey(360deg);
+}
+
+
+/****************/
+/* header style */
+
+.header {
+    text-align: center;
 }
 
 .header .big {
@@ -25,13 +58,19 @@ h1, h2, h3, h4, h5, h6, .big {
     height: 76px;
 }
 
-.rounded {
-    border-radius: 3px;
+
+/****************/
+/* footer style */
+
+.footer > * {
+    text-align: center;
+    font-size: 11px;
+    margin-bottom: 0px;
 }
 
-.places {
-    text-align: center;
-}
+
+/*************************************************/
+/* the class "places" is for links in the header */
 
 .places img {
     height: 21px;
@@ -39,8 +78,8 @@ h1, h2, h3, h4, h5, h6, .big {
 }
 
 .places a {
-    color: white;
-    background-color: #5F5F5F;
+    color: black;
+    background-color: #EAE3CB;
     border-radius: 3px;
     padding-top: 12px;
     padding-left: 4px;
@@ -51,7 +90,8 @@ h1, h2, h3, h4, h5, h6, .big {
 
 .places a:hover {
     text-decoration: none;
-    background-color: #212121;
+    background-color: #CCC6B1;
+    box-shadow: -2px 3px grey;
 }
 
 .places a span {
@@ -59,24 +99,9 @@ h1, h2, h3, h4, h5, h6, .big {
     bottom: 4px;
 }
 
-a {
-    text-decoration: none; 
-    color: #304EBB;
-}
 
-a:hover {
-    text-decoration: underline;
-}
-
-.half-width {
-    padding: 1em;
-    background-color: #FCF4DC;
-    width: 555px;
-    margin: auto;
-    border-radius: 0.5em;
-    text-align: justify;
-    font-family: "Palatino Linotype", Palatino, serif;
-}
+/***************************************************************/
+/* text can flow around images and they enlarge on mouse hover */
 
 .float-right {
     float: right;
@@ -96,6 +121,10 @@ a:hover {
 .float-right:hover, .float-left:hover, li img:hover {
     transform: scale(1.25,1.25);
 }
+
+
+/*******************/
+/* list formatting */
 
 ul {
     margin-top: 0px;
@@ -125,10 +154,4 @@ li img {
 .multipleColumns td {
     width: 50%;
     vertical-align: top;
-}
-
-.footer > * {
-    text-align: center;
-    font-size: 11px;
-    margin-bottom: 0px;
 }
