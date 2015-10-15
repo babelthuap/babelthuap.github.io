@@ -30,6 +30,11 @@ a:hover {
     font-family: "Palatino Linotype", Palatino, serif;
 }
 
+li p {
+    margin-top: 0em;
+    padding-left: 2em;
+}
+
 .places img {
     height: 1.3em;
     width: 1.3em;
