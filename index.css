@@ -1,3 +1,5 @@
+/* This is a mess! I need to organize this css at some point. */
+
 body {
     background-image: url("pictures/tessellation.jpg");
     background-color: #212121;
@@ -76,6 +78,25 @@ a:hover {
     font-family: "Palatino Linotype", Palatino, serif;
 }
 
+.float-right {
+    float: right;
+    margin-left: 1em;
+}
+
+.float-left {
+    float: left;
+    margin-right: 1em;
+}
+
+.float-right, .float-left, li img {
+    height: 4.5em;
+    transition: all 0.25s linear;
+}
+
+.float-right:hover, .float-left:hover, li img:hover {
+    transform: scale(1.25,1.25);
+}
+
 ul {
     margin-top: 0px;
     text-align: left;
@@ -99,14 +120,6 @@ li img {
     border: 1px solid #212121;
     border-radius: 3px;
     margin-left: 0.5em;
-}
-
-li img {
-    transition: all 0.25s linear;
-}
-
-li img:hover {
-    transform: scale(1.5,1.5);/*translate(-0.5em,0);*/
 }
 
 .multipleColumns td {
