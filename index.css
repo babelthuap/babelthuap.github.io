@@ -1,0 +1,58 @@
+body {
+    background-image: url("tessellation.jpg");
+    background-color: #001E27;
+}
+
+.header {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Optima", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.half-width {
+    padding: 1em;
+    background-color: #FCF4DC;
+    width: 555px;
+    margin: auto;
+    border-radius: 0.25em;
+    text-align: justify;
+    font-family: "Palatino Linotype", Palatino, serif;
+}
+
+.contact img {
+    height: 1.3em;
+    width: 1.3em;
+}
+
+.contact p {
+    text-align: center;
+}
+
+.contact a {
+    text-decoration: none;
+    color: blue;
+    background-color: rgba(0, 0, 255, 0.1);
+    border-radius: 3px;
+    padding-top: 11px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.contact p a span {
+    position: relative;
+    bottom: 4px;
+}
+
+ul {
+    margin-top: 0px;
+}
+
+.footer > * {
+    text-align: center;
+    font-size: 11px;
+    margin-bottom: 0px;
+}

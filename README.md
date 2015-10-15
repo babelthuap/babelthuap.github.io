@@ -1,2 +1,2 @@
 # babelthuap.github.io
-website to show off my personal projects
+website to show off my projects

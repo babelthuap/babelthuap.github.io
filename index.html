@@ -1,67 +1,117 @@
-<!-- Nicholas Neumann-Chun, last edited 27 Sep 2015 -->
-
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<meta name="description" content="Coding House Challenge 16">
-		<meta name="author" content="Nicholas">
+    <head>
+        <meta charset="utf-8">
+        <title>Nicholas' Projects</title>
 
-		<title>Hangman</title>
+        <link type="text/css" rel="stylesheet" href="index.css"/>
 
-		<!-- use Bootstrap via CDN -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <!-- this covers all possible uses of my favicon ... thanks, faviconit -->
+        <link rel="shortcut icon" href="favicon/favicon.ico">
+        <link rel="icon" sizes="16x16 32x32 64x64" href="favicon/favicon.ico">
+        <link rel="icon" type="image/png" sizes="196x196" href="favicon/favicon-192.png">
+        <link rel="icon" type="image/png" sizes="160x160" href="favicon/favicon-160.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96.png">
+        <link rel="icon" type="image/png" sizes="64x64" href="favicon/favicon-64.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16.png">
+        <link rel="apple-touch-icon" href="favicon/favicon-57.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="favicon/favicon-114.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="favicon/favicon-72.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="favicon/favicon-144.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="favicon/favicon-60.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="favicon/favicon-120.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="favicon/favicon-76.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="favicon/favicon-152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/favicon-180.png">
+        <meta name="msapplication-TileColor" content="#FFFFFF">
+        <meta name="msapplication-TileImage" content="favicon/favicon-144.png">
+        <meta name="msapplication-config" content="favicon/browserconfig.xml">
+    </head>
+    <body>
+    <div class="half-width">
+        <div class="header">
+            <h1>Welcome to Nicholas' Project Page</h1>
+            <img src="favicon/favicon-76.png" title="That's me!" alt="profile picture">
+        </div>
 
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->      
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <hr>
 
-		<!-- use Velocity (animation library) -->
-		<script src="velocity.min.js"></script>
+        <h3>Hello!</h3>
+        <p>My name is Nicholas Neumann-Chun, though I often use the moniker "Babelthuap" online. This purpose of this page is to show off the various projects I've worked on. So far, there is:</p>
 
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <ul>
+            <li>
+                <a href="projects/hangman.html">A Game of Hangman</a>
+            </li>
+            <li>
+                <a href="projects/experimenting.html">Some experimentation with HTML and CSS</a>
+            </li>
+        </ul>
 
-		<!-- use my stylesheet and JavaScript files -->
-		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-		<script src="hangman.js"></script>
-	</head>
+        <hr>
 
-	<body>
-		<div class="container-fluid text-center">
+        <div class="contact">
+            <h3>Some other places to find me:</h3>
+            <p>
+            <a href="https://www.linkedin.com/pub/nicholas-neumann-chun/103/a12/953">
+                <img src="webicons/webicon-linkedin.svg"> <span>LinkedIn</span></a>
+            <a href="https://github.com/babelthuap">
+                <img src="webicons/webicon-github.svg"> <span>GitHub</span></a>
+            <a href="https://babelthuap.wordpress.com/">
+                <img src="webicons/webicon-wordpress.svg"> <span>WordPress</span></a>
+            <a href="https://twitter.com/Babelthuap">
+                <img src="webicons/webicon-twitter.svg"> <span>Twitter</span></a>
+            </p>
+        </div>
 
-			<div class="page-header">
-				<h1>A Game of Hangman</h1>
-				<p>by Nicholas Neumann-Chun</p>
-				<strong>Type to choose letters.</strong>
-			</div>
+        <hr>
 
-			<!-- the hangman -->
-			<div id="gibbet" class="text-danger monospace">
-				<i>..</i>_____<i>...</i><br>
-				<i>.</i>|<i>.....</i><span class="hangman">|</span><i>..</i><br>
-				<i>.</i>|<i>.....</i><span class="hangman">0</span><i>..</i><br>
-				<i>.</i>|<i>....</i><span class="hangman">/</span><span class="hangman">|</span><span class="hangman">\</span><i>.</i><br>
-				<i>.</i>|<i>....</i><span class="hangman">/</span><i>.</i><span class="hangman">\</span><i>.</i><br>
-				<i>.</i>|<i>........</i><br>
-				<i>.</i>|<i>........</i><br>
-				**********
-			</div>
+        <h3>Miscellaneous...</h3>
 
-			<!-- the word currently trying to be guessed goes here -->
-			<h4 class="monospace"><div id="word"></div></h4>
+        <p>These are some websites I like:</p>
+        <ul>
+            <li><a href="https://news.ycombinator.com/">Hacker News</a></li>
+            <li><a href="https://xkcd.com/">XKCD webcomic</a></li>
+            <li><a href="http://buttersafe.com/">Buttersafe webcomic</a></li>
+            <li><a href="http://www.textilescusco.org/">Centro de Textiles Tradicionales del Cusco</a></li>
+            <li><a href="http://www.lettersofnote.com/">Letters of Note</a></li>
+            <li><a href="http://detexify.kirelabs.org/classify.html">Detexify</a> (very useful when writing TeX)</li>
+            <li><a href="https://www.random.org/integers/">Random.org</a> (true random number generator)</li>
+            <li><a href="http://www.zpacks.com/">ZPacks</a> (Cuben Fiber galore)</li>
+            <li><a href="https://www.hyperlitemountaingear.com/">Hyperlite Mountain Gear</a> (even more Cuben Fiber!)</li>
+        </ul>
 
-			<!-- the alphabet goes here -->
-			<div id="letters"></div>
+        <p>These are some of the things I care about, in no particular order:</p>
+        <table><tbody><tr>
+        <td><ul>
+            <li>writing good code</li>
+            <li>the definition of "good"</li>
+            <li>ethics in general</li>
+            <li>egalitarianism</li>
+            <li>democratic discourse</li>
+            <li>compassion</li>
+            <li>long-distance hiking</li>
+        </ul></td>
+        <td><ul>
+            <li>orthography</li>
+            <li>typesetting</li>
+            <li>mathematical beauty</li>
+            <li>LEGOs and Kapla</li>
+            <li>cryptography</li>
+            <li>being a good friend &amp; lover</li>
+            <li>environmentalism</li>
+        </ul></td>
+        </tr></tbody></table>
 
-			<!-- counter for the number of lives left -->
-			<p>lives left: <span id="lives"></span></p>
+        <hr>
 
-			<!-- restart button -->
-			<button id="restart" class="btn btn-default">restart [press return]</button>
-
-		</div> <!-- /container -->
-	</body>
+        <div class="footer">
+            <p>This page was last modified on <span id="last-modified"></span>.<br>
+            Copyright &copy; <span id="year"></span> Nicholas Neumann-Chun. All rights reserved.</p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="index.js"></script>
+    </body>
 </html>
