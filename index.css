@@ -20,6 +20,7 @@ h1, h2, h3, h4, h5, h6, .big {
 .header .big img {
     position: relative;
     top: 16px;
+    height: 76px;
 }
 
 .rounded {
