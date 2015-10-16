@@ -4,20 +4,26 @@
 body {
     background-image: url("pictures/tessellation.jpg");
     background-color: #212121;
+    text-align: justify;
+    font-family: "Palatino Linotype", Palatino, serif;
 }
 
 h1, h2, h3, h4, h5, h6, .big {
     font-family: "Optima", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-.half-width {
+hr {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.block {
     padding: 1em;
     background-color: #FCF4DC;
     width: 555px;
     margin: auto;
     border-radius: 0.5em;
-    text-align: justify;
-    font-family: "Palatino Linotype", Palatino, serif;
+    margin-bottom: 16px;
 }
 
 a {
@@ -44,6 +50,7 @@ a:hover {
 
 .header {
     text-align: center;
+    background: linear-gradient(#CDBC84, #FCF4DC);
 }
 
 .header .big {
@@ -65,12 +72,19 @@ a:hover {
 .footer > * {
     text-align: center;
     font-size: 11px;
+
+    margin-top: 0px;
+
     margin-bottom: 0px;
 }
 
 
 /*************************************************/
 /* the class "places" is for links in the header */
+
+.places {
+    margin-bottom: 0px;
+}
 
 .places img {
     height: 21px;
@@ -79,7 +93,7 @@ a:hover {
 
 .places a {
     color: black;
-    background-color: #EAE3CB;
+    background-color: #E1D7B7;
     border-radius: 3px;
     padding-top: 12px;
     padding-left: 4px;
