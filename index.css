@@ -3,7 +3,8 @@
 
 body {
     background-image: url("pictures/tessellation.jpg");
-    background-color: #212121;
+    background-color: #323332;
+    color: #001E27;
     text-align: justify;
     font-family: "Palatino Linotype", Palatino, serif;
 }
@@ -26,7 +27,7 @@ a:hover {
 }
 
 .spinny:hover {
-    transition: all 1.2s ease-out;
+    transition: all 0.15s linear;
     transform: rotate(7deg);
 }
 
@@ -56,7 +57,9 @@ body > div > *:last-child {
 
 .header {
     text-align: center;
-    background: linear-gradient(#CFDDE6, #FCF4DC);
+    color: #90A2A4;
+    background-color: #001E27;
+    border: 2px dotted #708284;
 }
 
 .header .big {
@@ -96,7 +99,7 @@ body > div > *:last-child {
     margin-top: -4px;
     padding-top: 6px;
     padding-bottom: 2px;
-    background-color: rgba(0,0,0,0.13);
+    background: linear-gradient(#708284, #90A2A4);
 }
 
 .places img {
@@ -105,7 +108,7 @@ body > div > *:last-child {
 }
 
 .places a {
-    color: #212121;
+    color: black;
     font-size: 13px;
     font-weight: bold;
     border: 2px solid rgba(0,0,0,0);
