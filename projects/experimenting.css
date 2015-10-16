@@ -1,8 +1,6 @@
 #hyper_picture {
     position: relative;
-    margin: auto;
-    width: 600px;
-    height: 450px;
+    height: 416.25px;
 }
 
 #hyper_picture a {
@@ -10,12 +8,6 @@
     font-weight: bold;
     font-size: 1.5em;
     text-decoration: none;
-}
-
-.text-body {
-    width: 600px;
-    margin: auto;
-    text-align: justify;
 }
 
 .quote {
@@ -30,5 +22,5 @@
     margin-left: 10px;
     padding: 3px;
     border-radius: 3px;
-    background: #EEE;
+    background-color: rgba(0,0,0,0.2);
 }

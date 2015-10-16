@@ -26,15 +26,29 @@
 
 		<!-- use my stylesheet and JavaScript files -->
 		<link type="text/css" rel="stylesheet" href="hangman.css"/>
+		<link type="text/css" rel="stylesheet" href="../index.css"/>
 		<script src="hangman.js"></script>
+		<script src="../index.js"></script>
 	</head>
 
 	<body>
+		<div class="header" style="margin-top: 9px;">
+            <h1 style="font-weight: bold; margin-bottom: 21px;">1. A Game of Hangman</h1>
+
+            <div class="places">
+                <a href="../index.html">
+                    <img src="../favicon/favicon-64.png" class="rounded">
+                    <span style="bottom: 0px;">Home</span>
+                <a href="experimenting.html">
+                    <span style="bottom: 0px;">Next</span>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/U%2B2192.svg" class="rounded" style="background-color: white;"></a>
+                </a>
+            </div>
+        </div>
+
 		<div class="container-fluid text-center">
 
 			<div class="page-header">
-				<h1>A Game of Hangman</h1>
-				<p>by Nicholas Neumann-Chun</p>
 				<strong>Type to choose letters.</strong>
 			</div>
 
@@ -63,5 +77,10 @@
 			<button id="restart" class="btn btn-default">restart [press return]</button>
 
 		</div> <!-- /container -->
+
+	    <div class="footer block">
+	        <p>This page was last modified on <span id="last-modified">Earth... probably</span>.<br>
+	        Copyright &copy; <span id="year">2015</span> Nicholas Neumann-Chun. All rights reserved.</p>
+	    </div>
 	</body>
 </html>
