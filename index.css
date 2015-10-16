@@ -17,7 +17,7 @@ hr {
     margin-bottom: 2em;
 }
 
-.block {
+body > div {
     padding: 1em;
     background-color: #FCF4DC;
     width: 555px;
