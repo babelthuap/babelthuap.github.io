@@ -31,8 +31,8 @@ a:hover {
 }
 
 .spinny:hover {
-    transition: all 1.2s ease-in-out;
-    transform: rotatey(360deg);
+    transition: all 1.2s ease-out;
+    transform: rotate(7deg);
 }
 
 /************************************/
