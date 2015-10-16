@@ -17,15 +17,6 @@ hr {
     margin-bottom: 2em;
 }
 
-body > div {
-    padding: 1em;
-    background-color: #FCF4DC;
-    width: 555px;
-    margin: auto;
-    border-radius: 0.5em;
-    margin-bottom: 16px;
-}
-
 a {
     text-decoration: none; 
     color: #304EBB;
@@ -42,6 +33,26 @@ a:hover {
 .spinny:hover {
     transition: all 1.2s ease-in-out;
     transform: rotatey(360deg);
+}
+
+/************************************/
+/* the blocks that make up the body */
+
+body > div {
+    padding: 1em;
+    background-color: #FCF4DC;
+    width: 555px;
+    margin: auto;
+    border-radius: 0.5em;
+    margin-bottom: 16px;
+}
+
+body > div > *:first-child {
+    margin-top: 4px;
+}
+
+body > div > *:last-child {
+    margin-bottom: 8px;
 }
 
 
@@ -72,9 +83,13 @@ a:hover {
 .footer > * {
     text-align: center;
     font-size: 11px;
+}
 
+.footer > *:first-child {
     margin-top: 0px;
+}
 
+.footer > *:last-child {
     margin-bottom: 0px;
 }
 
@@ -105,7 +120,7 @@ a:hover {
 .places a:hover {
     text-decoration: none;
     background-color: #CCC6B1;
-    box-shadow: -2px 3px grey;
+    box-shadow: -2px 3px rgba(0,0,0,0.5);
 }
 
 .places a span {
