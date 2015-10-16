@@ -8,13 +8,8 @@ body {
     font-family: "Palatino Linotype", Palatino, serif;
 }
 
-h1, h2, h3, h4, h5, h6, .big {
+h1, h2, h3, h4, h5, h6, .places, .big {
     font-family: "Optima", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
-
-hr {
-    margin-top: 2em;
-    margin-bottom: 2em;
 }
 
 a {
@@ -43,7 +38,7 @@ body > div {
     background-color: #FCF4DC;
     width: 555px;
     margin: auto;
-    border-radius: 0.5em;
+    border-radius: 6px;
     margin-bottom: 16px;
 }
 
@@ -61,7 +56,7 @@ body > div > *:last-child {
 
 .header {
     text-align: center;
-    background: linear-gradient(#CDBC84, #FCF4DC);
+    background: linear-gradient(#CFDDE6, #FCF4DC);
 }
 
 .header .big {
@@ -98,7 +93,10 @@ body > div > *:last-child {
 /* the class "places" is for links in the header */
 
 .places {
-    margin-bottom: 0px;
+    margin-top: -4px;
+    padding-top: 6px;
+    padding-bottom: 2px;
+    background-color: rgba(0,0,0,0.13);
 }
 
 .places img {
@@ -107,9 +105,10 @@ body > div > *:last-child {
 }
 
 .places a {
-    color: black;
-    background-color: #E1D7B7;
-    border-radius: 3px;
+    color: #212121;
+    font-size: 13px;
+    font-weight: bold;
+    border: 2px solid rgba(0,0,0,0);
     padding-top: 12px;
     padding-left: 4px;
     padding-right: 4px;
@@ -119,13 +118,13 @@ body > div > *:last-child {
 
 .places a:hover {
     text-decoration: none;
-    background-color: #CCC6B1;
-    box-shadow: -2px 3px rgba(0,0,0,0.5);
+    border: 2px solid rgba(0,0,0,0.5);
+    border-radius: 5px;
 }
 
 .places a span {
     position: relative;
-    bottom: 4px;
+    bottom: 5px;
 }
 
 
@@ -155,7 +154,7 @@ body > div > *:last-child {
 /*******************/
 /* list formatting */
 
-ul {
+ol, ul {
     margin-top: 0px;
     text-align: left;
 }
