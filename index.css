@@ -2,7 +2,7 @@
 /* define the general look of the site */
 
 body {
-    background-image: url("pictures/tessellation.jpg");
+    /*background-image: url("pictures/tessellation.jpg");*/
     background-color: #323332;
     color: #001E27;
     text-align: justify;
