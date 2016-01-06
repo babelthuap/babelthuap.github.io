@@ -3,6 +3,8 @@
 # - To initialize your AWS command line tool, run `aws configure`.
 # - To create an S3 bucket, run `aws s3 mb s3://mybucket`
 # - To initialize your S3 bucket as a website, run `aws s3 website $(S3_BUCKET) --index-document index.html`
+#
+# THIS DEPLOYS TO https://d12gge9jrwsli1.cloudfront.net/
 
 S3_BUCKET=s3://www.nicholasbabelthuap.com/
 
