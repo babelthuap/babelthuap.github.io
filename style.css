@@ -1,11 +1,9 @@
-body {
-  font-family: Palatino, serif;
-  font-size: 14px;
-  line-height: 1.6em;
+body * {
+  font-family: Palatino, serif !important;
 }
 
 #hero {
-  background: url(images/banner.jpg) no-repeat left top fixed;
+  background: url(images/banner.jpg) no-repeat left top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -25,8 +23,8 @@ body {
 
 #name {
   position: relative;
-  top: 0%;
-  transform: translateY(25%);
+  top: 50%;
+  transform: translateY(-50%);
   text-decoration: none;
   color: #000;
   font-weight: 300;
@@ -43,22 +41,22 @@ body {
 
 #resume {
   height: 50vh;
-  background-color: #ddd;
+  background-color: #aaa;
 }
 
 #projects {
   height: 50vh;
-  background-color: #fff;
+  background-color: #262a30;
 }
 
 #contact {
   height: 50vh;
-  background-color: #ddd;
+  background-color: #aaa;
 }
 
 #footer {
   background: #262a30;
   padding: 50px;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #000;
   color: #999;
 }
