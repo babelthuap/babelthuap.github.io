@@ -1,0 +1,64 @@
+body {
+  font-family: Palatino, serif;
+  font-size: 14px;
+  line-height: 1.6em;
+}
+
+#hero {
+  background: url(images/banner.jpg) no-repeat left top fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+#hero h1, #hero h2, #hero h3, #hero h4, #hero h5, #hero h6 {
+  color: #000;
+}
+
+#hero img {
+  border-radius: 9999px;
+  width: 166px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#name {
+  position: relative;
+  top: 0%;
+  transform: translateY(25%);
+  text-decoration: none;
+  color: #000;
+  font-weight: 300;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  font-variant: small-caps;
+}
+
+.subtitle {
+  font-style: italic;
+}
+
+#resume {
+  height: 50vh;
+  background-color: #ddd;
+}
+
+#projects {
+  height: 50vh;
+  background-color: #fff;
+}
+
+#contact {
+  height: 50vh;
+  background-color: #ddd;
+}
+
+#footer {
+  background: #262a30;
+  padding: 50px;
+  border-top: 1px solid #ddd;
+  color: #999;
+}
