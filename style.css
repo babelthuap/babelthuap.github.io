@@ -79,7 +79,19 @@ body * {
   background-color: #262a30;
 }
 
-#contact {
+.card {
+  background-color: rgba(255, 0, 0, 0.25);
+  border: 3px solid red;
+  border-radius: 16px;
+  display: inline-block;
+  margin: auto;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.card span {
+  font-style: italic;
+  margin-right: 0.5em;
 }
 
 #footer {
