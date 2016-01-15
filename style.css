@@ -41,7 +41,7 @@ body * {
 
 #resume {
   height: 50vh;
-  background-color: #aaa;
+  background-color: #000;
 }
 
 #projects {
@@ -51,7 +51,7 @@ body * {
 
 #contact {
   height: 50vh;
-  background-color: #aaa;
+  background-color: #000;
 }
 
 #footer {
