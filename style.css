@@ -40,7 +40,10 @@ body * {
 }
 
 .section {
-  padding: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 100px;
+  padding-bottom: 200px;
 }
 
 .section h1 {
@@ -79,6 +82,32 @@ body * {
   background-color: #262a30;
 }
 
+#projects hr {
+  border-color: #000;
+}
+
+.project-wrapper {
+  padding: 15px;
+}
+
+.project {
+  background: #eee;
+  -webkit-box-shadow: 1px 2px 3px #000;
+  box-shadow: 1px 2px 3px #000;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.project h3, .project h4 {
+  color: black;
+}
+
+.project img {
+  width: 270px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
 .card {
   background-color: rgba(255, 0, 0, 0.25);
   border: 3px solid red;
@@ -95,6 +124,7 @@ body * {
 }
 
 #footer {
+  font-size: 12px;
   background: #262a30;
   padding: 50px;
   border-top: 1px solid #000;
