@@ -39,19 +39,47 @@ body * {
   font-style: italic;
 }
 
-#resume {
-  height: 50vh;
-  background-color: #000;
+.section {
+  padding: 50px;
+}
+
+.section h1 {
+  font-variant: small-caps;
+}
+
+.thumbnail {
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 100px;
+  height: 100px;
+  border-radius: 16px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#williams-seal {
+  background-image: url(images/Williams_College_Seal.svg);
+  background-color: #fff;
+}
+
+#katahdin {
+  background-image: url(images/Katahdin.jpg);
+}
+
+#coding-house-logo {
+  width: 177px;
+  background-image: url(images/Coding_House_logo.png);
+  background-color: #222;
 }
 
 #projects {
-  height: 50vh;
   background-color: #262a30;
 }
 
 #contact {
-  height: 50vh;
-  background-color: #000;
 }
 
 #footer {
