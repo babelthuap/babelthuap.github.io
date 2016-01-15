@@ -16,7 +16,7 @@ body * {
 }
 
 #hero img {
-  border-radius: 9999px;
+  border-radius: 16px;
   width: 166px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
