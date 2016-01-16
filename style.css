@@ -2,6 +2,21 @@ body * {
   font-family: Palatino, serif !important;
 }
 
+.navbar li:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.navbar-right img {
+  height: 26px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.navbar-right img:hover {
+  transition: all 0.4s ease-in-out;
+  transform: rotate(-360deg);
+}
+
 #hero {
   background: url(images/banner.jpg) no-repeat left top;
   -webkit-background-size: cover;
@@ -19,6 +34,11 @@ body * {
   border-radius: 16px;
   width: 166px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#hero img:hover {
+  transition: all 0.1s linear;
+  transform: rotate(83deg);
 }
 
 #name {
@@ -51,17 +71,25 @@ body * {
   text-shadow: 0 1px 4px rgba(255, 255, 255, 0.3);
 }
 
+.thumbnails {
+  margin-top: 1em;
+}
+
 .thumbnail {
   margin: auto;
   margin-top: 1em;
   margin-bottom: 1em;
-  width: 100px;
-  height: 100px;
+  width: 100%;
   border-radius: 16px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.thumbnail:hover {
+  transition: all 0.2s ease-out;
+  transform: scale(1.15, 1.15);
 }
 
 #williams-seal {
@@ -74,9 +102,10 @@ body * {
 }
 
 #coding-house-logo {
-  width: 177px;
   background-image: url(images/Coding_House_logo.png);
   background-color: #222;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #projects {
@@ -101,6 +130,8 @@ body * {
 
 .project h3, .project h4 {
   color: black;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .project img {
@@ -119,8 +150,8 @@ body * {
   -webkit-box-shadow: 1px 2px 3px #000;
   box-shadow: 1px 2px 3px #f00;
   background-color: rgba(255, 0, 0, 0.25);
-  border: 3px solid #f00;
-  border-radius: 16px;
+  border: 5px solid #f00;
+  border-radius: 10px;
   display: inline-block;
   margin: auto;
   padding-left: 3em;

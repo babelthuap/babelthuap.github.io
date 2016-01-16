@@ -1,6 +1,14 @@
 'use strict';
 
 $(document).ready(function() {
+  // keep thumbnails square
+  var $thumbnails = $('.thumbnail');
+  function squareThumbnails() {
+    $thumbnails.css('height', $thumbnails.css('width'));
+  }
+  squareThumbnails();
+  $(window).resize(squareThumbnails);
+
   // set last modified date
   var modified = new Date(document.lastModified);
   $('#last-modified').text(modified.toLocaleDateString());
