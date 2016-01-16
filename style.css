@@ -12,11 +12,6 @@ body * {
   border-radius: 4px;
 }
 
-.navbar-right img:hover {
-  transition: all 0.4s ease-in-out;
-  transform: rotate(-360deg);
-}
-
 #hero {
   background: url(images/banner.jpg) no-repeat left top;
   -webkit-background-size: cover;
@@ -87,11 +82,6 @@ body * {
   background-size: cover;
 }
 
-.thumbnail:hover {
-  transition: all 0.2s ease-out;
-  transform: scale(1.15, 1.15);
-}
-
 #williams-seal {
   background-image: url(images/Williams_College_Seal.svg);
   background-color: #fff;
@@ -128,6 +118,11 @@ body * {
   border-radius: 3px;
 }
 
+.project:hover {
+  transition: all 0.2s ease-out;
+  transform: scale(1.1, 1.1);
+}
+
 .project h3, .project h4 {
   color: black;
   padding-left: 20px;
@@ -149,13 +144,17 @@ body * {
 .card {
   -webkit-box-shadow: 1px 2px 3px #000;
   box-shadow: 1px 2px 3px #f00;
-  background-color: rgba(255, 0, 0, 0.25);
+  background-color: rgba(255, 0, 0, 0.2);
   border: 5px solid #f00;
   border-radius: 10px;
   display: inline-block;
   margin: auto;
   padding-left: 3em;
   padding-right: 3em;
+}
+
+.card:hover {
+  background-color: rgba(255, 0, 0, 0.3);
 }
 
 .card span {
