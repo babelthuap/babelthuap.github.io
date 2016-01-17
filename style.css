@@ -33,7 +33,7 @@ body * {
 
 #hero img:hover {
   transition: all 0.1s linear;
-  transform: rotate(83deg);
+  transform: rotate(7deg);
 }
 
 #name {
@@ -75,6 +75,7 @@ body * {
   margin-top: 1em;
   margin-bottom: 1em;
   width: 100%;
+  max-width: 256px;
   border-radius: 16px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
