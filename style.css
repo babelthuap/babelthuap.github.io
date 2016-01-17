@@ -145,7 +145,7 @@ body * {
 .card {
   -webkit-box-shadow: 1px 2px 3px #000;
   box-shadow: 1px 2px 3px #f00;
-  background-color: rgba(255, 0, 0, 0.2);
+  background-color: #262a30;
   border: 5px solid #f00;
   border-radius: 10px;
   display: inline-block;
@@ -155,7 +155,7 @@ body * {
 }
 
 .card:hover {
-  background-color: rgba(255, 0, 0, 0.3);
+  background-color: #2a1010;
 }
 
 .card span {
@@ -165,7 +165,7 @@ body * {
 
 #footer {
   font-size: 12px;
-  background: #262a30;
+  background-color: #262a30;
   padding: 50px;
   border-top: 1px solid #000;
   color: #999;
