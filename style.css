@@ -145,7 +145,7 @@ body * {
 
 .project:hover {
   transition: all 0.2s ease-out;
-  transform: scale(1.1, 1.1);
+  transform: scale(1.07, 1.07);
 }
 
 .project h3, .project h4 {
