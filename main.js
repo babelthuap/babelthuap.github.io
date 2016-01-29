@@ -1,5 +1,7 @@
 'use strict';
 
+// ping Friend Finder
+$.get('http://young-favorite-users.herokuapp.com');
 // ping Green it!
 $.get('https://vast-sierra-7757.herokuapp.com/');
 
