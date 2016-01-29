@@ -1,5 +1,8 @@
 'use strict';
 
+// ping Green it!
+$.get('https://vast-sierra-7757.herokuapp.com/');
+
 $(document).ready(function() {
   // keep thumbnails square
   var $thumbnails = $('.thumbnail');
