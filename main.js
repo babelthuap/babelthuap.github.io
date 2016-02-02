@@ -22,4 +22,7 @@ $(document).ready(function() {
   var today = new Date();
   var year = today.getFullYear();
   $('#year').text(year == 2015 ? year : '2015-' + year);
+
+  // set phone number
+  $('#mah-numba').text('651-491-4928');
 });
