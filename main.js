@@ -23,6 +23,11 @@ $(document).ready(function() {
   var year = today.getFullYear();
   $('#year').text(year == 2015 ? year : '2015-' + year);
 
+  // set email
+  var $email = $('<a>').attr('href', 'mailto:nicholas.babelthuap@gmail.com')
+                   .text('nicholas.babelthuap (at) gmail.com');
+  $('#mah-email').append($email);
+
   // set phone number
   $('#mah-numba').text('651-491-4928');
 });
